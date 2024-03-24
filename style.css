@@ -1,0 +1,268 @@
+
+body{
+    margin: 10px;
+    /*background-color: rgb(219, 234, 244);*/
+    background-image: url("/img/Backgroun_body3.jpg");
+}
+
+#home {
+    background-image: url("/img/Banner2.png");
+    width: auto;
+    margin-top: -1cm;
+    padding-top: 1cm;
+    padding-bottom: 3.8cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+
+    
+}
+
+header {
+    padding-left: 1.5cm;
+    margin-top: -1cm;
+    float: left;
+}
+
+#summary {
+    font-family: arial;
+    width: 750px ;
+    margin-left: 4cm;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 2cm;
+    padding-top: 2cm;
+ 
+}
+
+.topmenu {
+    color: rgb(0, 191, 255);
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: navajowhite;
+    border: none;
+    transition: .8s;
+}
+
+.topmenu:hover {
+    color: white;
+    border: none;
+    text-decoration: dotted;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.info {
+
+    display: flex;
+    margin-left: -1cm;
+    margin-bottom: -.8cm;
+}
+
+#info {
+    margin-top: -1.5cm;
+    
+}
+
+p, li {
+    font-family: arial;
+    padding-right: 1cm ;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(50, 50, 196);
+    font-family: arial;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(50, 50, 196);
+    font-family: arial;
+    padding-left: 1cm;
+}
+
+h3 {
+    font-family: arial;
+}
+
+#main {
+    float: center;
+}
+
+.detail {
+    display: flex;
+}
+
+
+#aboutme {
+    display: inline-flex;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    margin-left: 1cm;
+
+}
+
+#aboutme article {
+    align-items: right;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+#skills div{
+    transition: .2s;
+    margin-top: .5cm;
+}
+#skills div:hover {
+    scale: 1.2;
+    transition: .2s;
+    
+}
+#skills div fieldset {
+    border: none;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+    transition: .2s;
+}
+
+#skills div fieldset:hover{
+    transition: .5s;
+    background-color: rgb(255, 189, 22);
+}
+#skills div fieldset figure {
+    display: grid;
+    justify-items: center;
+    
+}
+
+#skills div fieldset figure figcaption {
+    font-size: 12px;
+    font-family: arial;
+    padding-top: .25cm;
+}
+
+#skills div fieldset p {
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    
+}
+
+#projects div{
+    margin-top: 1cm;
+}
+
+#projects div article {
+    padding-left: .5cm;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .4s;
+}
+
+#projects div article:hover {
+    scale: 1.01;
+    transition: .4s;
+}
+#projects div{
+    padding-left: 2cm;
+    padding-right: 1cm;
+    
+}
+
+#projects div article h3 {
+    padding-top: .5cm;
+}
+
+#projects div article ul{
+    padding-bottom: .5cm;
+}
+
+hr {
+    margin-top: .5cm ;
+    margin-bottom: .5cm;
+    color: rgb(50, 50, 196) transparent;
+    border: 1px solid;
+    width: 1200px;
+    
+}
+#recomm_sec {
+    margin-top: 2cm;
+}
+    
+#project_sec {
+    margin-top: 2cm;
+}
+
+#recommendations section article {
+    padding-left: 2cm;
+    padding-right: 1cm;
+    display: flex;
+    justify-content: space-between;
+}
+
+#recommendations section article fieldset {
+    background-color: white;
+    margin: 1cm;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#recommendations section article fieldset {
+    padding: 1cm;
+}
+
+#form_rec {
+    justify-content: center;
+}
+
+#form_rec div {
+    margin-top: 1cm;
+    padding-top: .5cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+    padding-bottom: .5cm;
+    background-color: white;
+    border-radius: 1cm;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#form_rec div form {
+    display: grid;
+    justify-content: space-between;
+}
+
+#form_rec div form input {
+    margin-top: .2cm;
+}
+
+#btn {
+    margin-top: .25cm;
+    padding: .25cm;
+    border: transparent;
+    width: fit-content;
+    border-color: rgb(219, 234, 244);
+    border-radius: .2cm;
+    color: rgb(0, 0, 0);
+    transition: .2s;
+}
+
+#btn:hover {
+    background-color: rgb(50, 50, 196)  ;
+    color: white;
+    transition: .2s;
+}
