@@ -2,11 +2,11 @@
 body{
     margin: 10px;
     /*background-color: rgb(219, 234, 244);*/
-    background-image: url("/img/Backgroun_body3.JPG");
+    background-image: url("./img/Backgroun_body3.jpg");
 }
 
 #home {
-    background-image: url("/img/Banner2.PNG");
+    background-image: url("./img/Banner2.png");
     width: auto;
     margin-top: -1cm;
     padding-top: 1cm;
