@@ -51,7 +51,6 @@ header {
     color: white;
     border: none;
     font-weight: bold;
-    text-decoration: underline;
     transition: .4s;
     cursor: pointer;
 }
@@ -231,10 +230,13 @@ hr {
     border: none;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .4s;
 }
 
-
-
+#recommendations section article fieldset {
+    scale: 1.01;
+    transition: .4s;
+}
 #form_rec {
     justify-content: center;
 }
