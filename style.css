@@ -233,7 +233,7 @@ hr {
     transition: .4s;
 }
 
-#recommendations section article fieldset {
+#recommendations section article fieldset:hover {
     scale: 1.01;
     transition: .4s;
 }
