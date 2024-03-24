@@ -51,6 +51,7 @@ header {
     color: white;
     border: none;
     font-weight: bold;
+    text-decoration: underline;
     transition: .4s;
     cursor: pointer;
 }
@@ -234,9 +235,10 @@ hr {
 }
 
 #recommendations section article fieldset:hover {
-    scale: 1.05;
     transition: 0.4s;
+    scale: 1.05;
 }
+
 #form_rec {
     justify-content: center;
 }
