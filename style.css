@@ -50,7 +50,8 @@ header {
 .topmenu:hover {
     color: white;
     border: none;
-    text-decoration: dotted;
+    font-weight: bold;
+    text-decoration: underline;
     transition: .4s;
     cursor: pointer;
 }
@@ -112,7 +113,9 @@ h3 {
 
 #skills {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
     margin-left: 1cm;
     margin-right: 1cm;
 }
@@ -129,10 +132,12 @@ h3 {
 #skills div fieldset {
     border: none;
     background-color: white;
+    width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     transition: .2s;
 }
 
@@ -156,6 +161,8 @@ h3 {
     font-size: 20px;
     font-family: arial;
     text-align: center;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -209,20 +216,21 @@ hr {
     padding-left: 2cm;
     padding-right: 1cm;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #recommendations section article fieldset {
     background-color: white;
+    padding: 1cm ;
+    width: 20%;
     margin: 1cm;
     border: none;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#recommendations section article fieldset {
-    padding: 1cm;
-}
+
 
 #form_rec {
     justify-content: center;
